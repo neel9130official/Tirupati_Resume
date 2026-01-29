@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> <meta charset="UTF-8">
+        <meta
+            name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tirupati Mundkar | Portfolio</title> <link rel="icon"
+            type="image/png" href="favicon.png"> <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        <link rel="stylesheet" href="style.css"> </head> <body> <header> <table>
+                <tr> <td> <img src="neelkanth.jpg" alt="Neelkanth's Photo"
+                            height="200" width="200"> </td> <td> <h1>Tirupati
+                            Kishan Mundkar</h1> <p>Clinical Research Analyst <a
+                                href="https://www.tevapharm.com/"
+                                target="_blank">@ Teva Pharmaceuticals
+                                <div
+                                    class="top-buttons"> <a
+                                        href="#connectWithMe"
+                                        class="btn-small">Connect</a> <button
+                                        id="viewResumeBtn"
+                                        class="btn-small">View Resume</button>
+                                </div> </td> </tr> </table> </header>
+                <hr> <main> <section id="Education">
+                        <h2>Education</h2> <table border> <tr> <th>Sr.No.</th>
+                                <th>Degree</th> <th>College</th> <th>Year</th>
+                            </tr>
+                            <tr> <td>1</td> <td>Master Of Pharmaceuticals</td>
+                                <td> <a
+                                        href="https://metbhujbalknowledgecity.ac.in/metpharm/"
+                                        target="_blank"> METS College Nashik
+                                    </a> </td> <td>2022–2024</td> </tr> <tr>
+                                <td>2</td>
+                                <td>Bachelor Of Pharmacy</td> <td> <a
+                                        href="https://mcpnilanga.ac.in/"
+                                        target="_blank"> Maharashtra College Of
+                                        Pharmacy</a> </td>
+                                <td>2018–2022</td> </tr> <tr> <td>3</td>
+                                <td>HSC</td>
+                                <td>Shivaji Highschool Nanded</td> <td>2017</td>
+                            </tr>
+                            <tr> <td>4</td> <td>SSC</td> <td>Shivaji Highschool
+                                    Nanded</td> <td>2015</td> </tr> </table>
+                    </section>
+                    <hr> <section id="Experience">
+                        <h2> Professional Experience</h2> <ul>
+                            <li><strong>Analytical Researcher – Teva
+                                    Pharmaceuticals</strong> (2024-Present)
+                                <li>Execute bioanalytical method development
+                                    and validation in adherence to USFDA and
+                                    EMA reg-
+                                    ulatory standards.</li>
+                                <li>Streamline sample logistics and
+                                    collaborate with cross-functional teams
+                                    to expedite regulatory filing
+                                    timelines.</li>
+                                <li>Author and review study documentation to
+                                    ensure ”submission-ready” quality for global
+                                    markets.</li></p>
+                        </li>
+                        <li><strong>M.Pharm Project Intern – Anish
+                                Pharmaceuticals
+                            </strong>
+                            (Jan 2024– june 2024)
+                            <p> <li>Optimized the formulation of
+                                    extended-release Potassium Chloride pellets
+                                    using Fluid Bed Process-
+                                    ing.</li>
+                                <li>Managed batch documentation and data
+                                    compilation within a GMP-certified
+                                    manufacturing envi-
+                                    ronment.</li>
+                                <li>Conducted rigorous sampling and stability
+                                    testing to validate formulation
+                                    efficacy.</li> </p>
+                        </li> </ul>
+                </section> <hr>
+                <section id="Projects"> <h2>Project</h2>
+                    <ul> <article id="web"> <li><strong>Virtual Regulatory
+                                    Strategy & Dossier Design
+                                </strong></li>
+                            <p> <li>Simulated the structuring of Module 3
+                                    (Quality) and Module 5 (Clinical Study
+                                    Reports) for eCTD
+                                    submissions.</li>
+                                <li>Developed a mock clinical trial protocol
+                                    applying ICH-E6 (GCP) principles to assess
+                                    regulatory
+                                    feasibility.</li> </p>
+                        </article>
+
+                        <!-- PORTFOLIO -->
+                         </ul> </section> <hr> <hr>
+                </main> <hr> <footer
+                id="footer"> <h2 id="connectWithMe">Connect With Me</h2> <ul
+                    class="contact-list"> <li> <i
+                            class="fa-brands fa-whatsapp"></i>
+                        <a href="https://wa.me/918855037638"
+                            target="_blank">+91
+                            8855037638</a> </li> <li> <i
+                            class="fa-solid fa-envelope"></i> <a
+                            href="mailto:tirupatimundkar123@gmail.com">tirupatimundkar123@gmail.com</a>
+                    </li> <li> <i class="fa-brands fa-linkedin"></i> <a
+                            href="https://linkedin.com/in/tirupatimundkar"
+                            target="_blank"> tirupati-mundkar </a> </li>
+                    
+                     </ul>
+            </footer>
+            <div id="resumeModal" class="modal"> <div
+                    class="modal-content"> <span
+                        class="close">&times;</span> <h2>My
+                        Resume</h2>
+                    <iframe
+                        src="Tirupati_Resume.pdf#navpanes=0"
+                        class="pdf-viewer"></iframe> </div> </div>
+            <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const viewBtn = document.getElementById("viewResumeBtn");
+    const modal = document.getElementById("resumeModal");
+    const closeBtn = modal.querySelector(".close");
+
+    if (!viewBtn || !modal || !closeBtn) {
+      console.error("Resume modal elements not found");
+      return;
+    }
+
+    // Open modal
+    viewBtn.addEventListener("click", function () {
+      modal.style.display = "block";
+    });
+
+    // Close modal on X
+    closeBtn.addEventListener("click", function () {
+      modal.style.display = "none";
+    });
+
+    // Close modal on outside click
+    window.addEventListener("click", function (event) {
+      if (event.target === modal) {
+        modal.style.display = "none";
+      }
+    });
+  });
+</script>
+
+        </body> </html>
